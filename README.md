@@ -11,8 +11,7 @@ installer script:
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
 ```
 This will install into `~/.nvm` and attempt to update your profile.
-For more info or trouble shooting please visit the github page for nvm
-at https://github.com/nvm-sh/nvm.
+For more info or trouble shooting please visit the [github page for nvm](https://github.com/nvm-sh/nvm).
 
 Once you have nvm you can install the latest node version
 ```
@@ -25,7 +24,8 @@ with `corepack enable`. Node < 16.10 you will need to run
 `npm i -g corepack`
 
 ## Install Rust
-Install Rustup with ```
+Install Rustup with 
+```
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 Configure your shell
@@ -36,7 +36,7 @@ Add the wasm target to you toolchin
 ```
 rustup target add wasm32-unknown-unknown
 ```
-If you have any issues take a look at the rust install page https://www.rust-lang.org/tools/install
+If you have any issues take a look at the [rust install page](https://www.rust-lang.org/tools/install)
 
 ## Install the near-cli
 After all of that we can finally install the near CLI
@@ -70,7 +70,7 @@ source the neardev env file `source neardev/dev-account.env` this will
 export the account name for the contract to `$CONTRACT_NAME`
 
 ## Optional Login / Create non dev test account
-You will either need to create a new account or import your keys with the[NEAR Wallet](https://wallet.testnet.near.org).
+You will either need to create a new account or import your keys with the [NEAR Wallet](https://wallet.testnet.near.org).
 
 In the project root, login with `near-cli` by following the instructions after this command:
 
